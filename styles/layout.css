@@ -3,6 +3,7 @@ body {
   margin: 0%;
   padding: 0%;
   width: 100%;
+  cursor: default;
 }
 
 header {
@@ -40,14 +41,14 @@ li {
   line-height: 0;
 }
 
-section {
+main {
   display: grid;
   grid-column: 1 / 5;
   grid-row: 3 / 5;
   height: 25rem;
 }
 
-main {
+section {
   grid-column: 1 / 5;
   background-color: #cccccc;
 }
