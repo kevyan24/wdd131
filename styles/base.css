@@ -39,6 +39,7 @@ a:hover {
 main {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+  max-width: 100%;
 }
 
 .card {
