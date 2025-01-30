@@ -1,0 +1,31 @@
+@media (min-width: 1264px) {
+  main div {
+    max-width: 1245px;
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: 949px) {
+  #menu {
+    display: none;
+  }
+
+  nav ul.menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+  }
+
+  nav li {
+    display: block !important;
+    margin: 0 1rem;
+    font-size: 1.5rem;
+  }
+
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
