@@ -1,0 +1,38 @@
+@media screen and (min-width: 1100px) and (max-width: 1399px) {
+
+  main {
+    position: relative;
+  }
+
+  .one {
+    position: absolute;
+    top: 0;
+    width: 45%;
+    background-color: #00008b80;
+    color: #ffffff;
+    top: 1rem;
+    left: 1rem;
+    padding: 0.5rem;
+  }
+
+  .one h2 {
+    color: #ffffff;
+    background-color: #ff000080;
+    font-size: 1.5rem;
+  }
+
+  .two {
+    position: absolute;
+    width: 45%;
+    background-color: #00008b80;
+    color: #ffffff;
+    bottom: 3rem;
+    right: 1rem;
+    padding: 0.5rem;
+  }
+
+  .two h2 {
+    color: #ffffff;
+    background-color: #ff000080;
+  }
+}
