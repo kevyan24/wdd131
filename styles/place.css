@@ -74,3 +74,11 @@ footer {
   width: 5rem;
 }
 
+h2:hover {
+  cursor: default;
+}
+
+h2::after {
+  content: " \279C";
+  margin-left: 0.5rem;
+}
