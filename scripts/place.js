@@ -26,7 +26,6 @@ function updateWeather() {
     const windChill = calculateWindChill(temperature, windSpeed);
 
     weatherSection.innerHTML = `
-            <h2>Weather</h2>
             <img class="svg" src="./images/1530391_weather_clouds_sun_sunny_icon.svg" alt="Weather Icon">
             <ul>
                 <li>Temperature: ${temperature}°C</li>
