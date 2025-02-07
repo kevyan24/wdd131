@@ -21,19 +21,16 @@ function calculateWindChill(temp, wind) {
 }
 
 function updateWeather() {
-  const weatherSection = document.querySelector('.two');
+  const weatherSection = document.querySelector('.js');
   if (weatherSection) {
     const windChill = calculateWindChill(temperature, windSpeed);
 
     weatherSection.innerHTML = `
-            <img class="svg" src="./images/1530391_weather_clouds_sun_sunny_icon.svg" alt="Weather Icon">
-            <ul>
-                <li>Temperature: ${temperature}°C</li>
-                <li>Conditions: ${conditions}</li>
-                <li>Wind: ${windSpeed} km/h</li>
-                <li>Wind Chill: ${windChill}°C</li>
-            </ul>
-        `;
+      <li>Temperature: ${temperature}°C</li>
+      <li>Conditions: ${conditions}</li>
+      <li>Wind: ${windSpeed} km/h</li>
+      <li>Wind Chill: ${windChill}°C</li>
+      `;
   }
 }
 
