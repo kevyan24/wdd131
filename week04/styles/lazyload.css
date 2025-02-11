@@ -32,12 +32,12 @@ img {
   margin: auto;
   padding: 1rem 0;
   border-radius: 50px !important;
-  animation: fade 5s;
+  animation: fade 4s;
 }
 
 @keyframes fade {
   0% {
-    opacity: 0;
+    opacity: 0;display: block;
   }
 
   100% {
