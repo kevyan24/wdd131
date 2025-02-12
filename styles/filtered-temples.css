@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #3c0a64;
+  color: #fff;
+  padding: 1rem;
+}
+
+main {
+  text-align: center;
+}
+
+main div {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 0 1rem;
+}
+
+h2 {
+  padding: 1rem 0 0 0;
+  font-size: 2rem;
+}
+
+img {
+  max-width: 100%;
+  border-radius: 1.1rem 1.1rem 0 0;
+}
+
+figure {
+  margin: 1rem;
+  text-align: center;
+  font-size: 1.5rem;
+  border-radius: 1.2rem;
+  background-color: #eeeeee;
+  max-width: 100%;
+}
+
+figcaption {
+  padding: 0 0 1rem 0;
+  line-height: 2rem;
+}
+
+@media (max-width: 949px) {
+  nav li {
+    display: none;
+  }
+}
+
+nav li {
+  list-style: none;
+  flex-direction: column;
+  margin: 1.5rem;
+  cursor: pointer;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.show li {
+  display: block;
+}
+
+a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+a:hover {
+  color: #9e82b5;
+}
+
+#menu {
+  position: absolute;
+  right: 1rem;
+  top: 0.9rem;
+  font-size: 2rem;
+}
+
+#menu::before {
+  content: "≡";
+}
+
+#menu.show::before {
+  content: "X";
+  font-size: 1.5rem;
+}
+
+footer {
+  background-color: #3c0a64;
+  line-height: 1.5rem;
+  color: #ffffff;
+  text-align: center;
+  padding: 1rem 0;
+  font-size: 1.5rem;
+}
+
+footer span {
+  color: #ffffff;
+  font-size: 1rem;
+}
