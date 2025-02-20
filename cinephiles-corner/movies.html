@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Movies - The Cinephile's Corner</title>
+  <meta name="author" content="Kevin Andres Yanez">
+  <meta name="description" content="My favorite movies and why I recommend them. Reviews and details of each movie.">
+  <meta name="keywords" content="movies, favorites, reviews, cinema, details">
+  <link rel="stylesheet" href="./styles/index.css">
+</head>
+
+<body>
+  <header>
+    <img src="./images/logo.jpg" alt="Logo de The Cinephile's Corner">
+    <h1>The Cinephile's Corner</h1>
+    <button id="menuToggle" class="menu-toggle" aria-label="Abrir/Cerrar menú">&#9776;</button>
+    <nav id="mainNav" class="nav-main nav-mobile">
+      <a href="index.html">Home</a>
+      <a href="movies.html">Movies</a>
+      <a href="about.html">About Me</a>
+    </nav>
+    <button id="themeToggle" aria-label="Cambiar tema">Toggle Theme</button>
+  </header>
+  <main id="mainContent">
+    <section id="movieDetails" style="display: none;">
+      <h2>Movie Details</h2>
+      <div id="movieInfo"></div>
+    </section>
+    <div id="movieList"></div>
+  </main>
+  <footer>
+    <p id="year"></p>
+    <p id="lastModify"></p>
+  </footer>
+  <script src="./script/index.js"></script>
+</body>
+
+</html>

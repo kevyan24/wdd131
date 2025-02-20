@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Me - The Cinephile's Corner</title>
+  <meta name="author" content="Kevin Andres Yanez">
+  <meta name="description"
+    content="Meet the author of The Cinephile's Corner. My passion for cinema and my favorite movies.">
+  <meta name="keywords" content="author, cinema, movies, biography, contact">
+  <link rel="stylesheet" href="./styles/index.css">
+</head>
+
+<body>
+  <header>
+    <img src="./images/logo.jpg" alt="Logo de The Cinephile's Corner">
+    <h1>The Cinephile's Corner</h1>
+    <button id="menuToggle" class="menu-toggle" aria-label="Abrir/Cerrar menú">&#9776;</button>
+    <nav id="mainNav" class="nav-main nav-mobile">
+      <a href="index.html">Home</a>
+      <a href="movies.html">Movies</a>
+      <a href="about.html">About Me</a>
+    </nav>
+    <button id="themeToggle" aria-label="Cambiar tema">Toggle Theme</button>
+  </header>
+  <main id="mainContent">
+    <section id="principal">
+      <h2>About Me</h2>
+      <img src="./images/yo.jpg" alt="My profile picture" loading="lazy">
+      <p>Hello! I'm [Your Name] and I've been passionate about cinema since I was a child. I remember Sunday afternoons
+        watching movies with my family and how they transported me to incredible worlds.</p>
+      <p>Over time, my love for cinema grew and I started exploring different genres and directors. I love analyzing
+        movies, discovering hidden messages, and appreciating the magic of the seventh art.</p>
+    </section>
+
+    <section>
+      <h3>My cinematic journey</h3>
+      <p>Over the years, I've seen hundreds of movies and developed an eclectic taste. I like both classics and modern
+        productions, and I enjoy movies from all over the world.</p>
+      <p>In addition to watching movies, I also like to write about them. I've collaborated with some blogs and
+        magazines, and now I want to share my reviews and reflections in this personal space.</p>
+    </section>
+
+    <section>
+      <h3>My favorite movies</h3>
+      <p>It's hard to choose just a few favorite movies, but here are some that have marked me:</p>
+      <ul>
+        <li><strong>Inception:</strong> A movie that challenges the mind and makes you question reality.</li>
+        <li><strong>Spirited Away:</strong> A masterpiece of animation that transports you to a magical world.</li>
+        <li><strong>Pulp Fiction:</strong> An iconic movie with memorable dialogues and a unique narrative.</li>
+        <li><strong>Parasite:</strong> An intense social critique and a story full of unexpected twists.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Contact</h2>
+      <p>If you have any questions, comments, or suggestions, feel free to contact me through the following form:</p>
+      <form id="contactForm">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        <label for="email">Email Address:</label>
+        <input type="email" id="email" name="email" required>
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" required></textarea>
+        <button type="submit">Send</button>
+      </form>
+    </section>
+  </main>
+  <footer>
+    <p id="year"></p>
+    <p id="lastModify"></p>
+  </footer>
+  <script src="./script/index.js"></script>
+</body>
+
+</html>
